@@ -1,0 +1,93 @@
+/* nuevo.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #08515f;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #b3c1f2 !important;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+}
+
+.form-label {
+    color: black;
+}
+
+.form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    background-color: #A7CF30;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    box-shadow: 0px 0px 10px rgba(13, 71, 161, 0.5);
+}
+
+.btn-primary {
+    background-color: #0d47a1;
+    border-color: #0d47a1;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0a357f;
+    border-color: #0a357f;
+}
+
+table {
+    color: #ffffff;
+    background-color: #1c1c1e;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #0d47a1;
+    color: #ffffff;
+}
+
+td img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: #e53935;
+    border-color: #e53935;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
